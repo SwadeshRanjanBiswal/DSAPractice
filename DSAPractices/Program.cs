@@ -19,6 +19,7 @@ class Leet442
             var res = nums.Distinct().ToList().FindIndex(x => x == target);
             return res;
         }
+
         public int[] FindTargetNumber(int[] numbers, int target)
         {
             numbers = new int[] {2,7,11,15 };
